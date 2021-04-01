@@ -47,7 +47,7 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active ">
-                            <img class="md-avatar rounded-circle mb-5" src="assets/img/Imagen1.jpeg" alt="First slide">
+                            <img class="md-avatar rounded-circle mb-5 img-responsivve" src="assets/img/Imagen1.jpeg" alt="First slide">
                         </div>
                         <div class="carousel-item">
                             <img class="md-avatar rounded-circle mb-5" src="assets/img/Imagen2.jpeg" alt="Second slide">
