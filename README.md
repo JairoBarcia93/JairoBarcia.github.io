@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>MNVA</title>
@@ -36,39 +36,46 @@
         </nav>
         <!-- Masthead-->
         <header class="masthead text-white text-center" style="background-image: url(assets/img/Fondo.jpg)" >
-            <div class="container d-flex align-items-center flex-column">
+            <div class="container ">
                 <!-- Masthead Avatar Image-->
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active ">
-                            <img class="md-avatar rounded-circle mb-5 img-responsivve" src="assets/img/Imagen1.jpeg" alt="First slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="md-avatar rounded-circle mb-5" src="assets/img/Imagen2.jpeg" alt="Second slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="md-avatar rounded-circle mb-5" src="assets/img/Imagen3.jpeg" alt="Third slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="md-avatar rounded-circle mb-5" src="assets/img/Imagen4.jpeg" alt="Four slide">
+                <div class="row">
+                    <!-- Insert/Drop Grid Column codes below-->
+                    <div class="col">
+
+
+
+                        <div id="carousel-1" class="carousel slide" data-ride="carousel" data-interval="5000"> 
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-1" data-slide-to="1"></li>
+                                <li data-target="#carousel-1" data-slide-to="2"></li>
+                                <li data-target="#carousel-1" data-slide-to="3"></li>
+                            </ol>
+                            <div style="text-align: center" class="carousel-inner" role="listbox">
+                                <div class="carousel-item active ">
+                                    <img class="md-avatar rounded-circle mb-5 img-fluid" src="assets/img/Imagen1.jpeg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img  class="md-avatar rounded-circle mb-5 img-fluid" src="assets/img/Imagen2.jpeg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img  class="md-avatar rounded-circle mb-5 img-fluid" src="assets/img/Imagen3.jpeg" alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img  class="md-avatar rounded-circle mb-5 img-fluid" src="assets/img/Imagen4.jpeg" alt="Four slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
                 </div>
-
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading text-uppercase mb-0">Maite Noelia Villacreses Andrade</h1>
                 <!-- Icon Divider-->
@@ -98,7 +105,7 @@
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="far fa-folder-open fa-3x"></i></div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="" />
                         </div>
@@ -107,7 +114,7 @@
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="far fa-folder-open fa-3x"></i></div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="" />
                         </div>
@@ -116,7 +123,7 @@
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="far fa-folder-open fa-3x"></i></div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="" />
                         </div>
@@ -125,7 +132,7 @@
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="far fa-folder-open fa-3x"></i></div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/game.png" alt="" />
                         </div>
@@ -134,7 +141,7 @@
                     <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="far fa-folder-open fa-3x"></i></div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="" />
                         </div>
@@ -143,7 +150,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="far fa-folder-open fa-3x"></i></div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="" />
                         </div>
@@ -165,17 +172,13 @@
                 <!-- About Section Content-->
                 <div class="row">
                     <div class="col-12"><p class="text-justify">
-                            Soy una persona que busca contribuir con mis habilidades y conocimientos
-                            adquiridos durante mis años formativos como productora musical en la
-                            Universidad de las Artes, así como desarrollar nuevas habilidades durante
-                            mi estadía en la oportunidad laboral que se me otorga.<br><br>
+                            Cambiar acerca de mi<br><br>
 
                         </p></div>
                 </div>
                 <div class="row">
-                    <div class="col-2"></div>
 
-                    <div class="col-5">
+                    <div class="col">
                         <p class="lead">Estudios:</p>
                         <u><strong>Producción musical con mención en artes sonoras</strong></u><br>
                         Paradox - Instituto Tecnológico de Imagen y Sonido<br><br>
@@ -183,22 +186,20 @@
                         UARTES - Universidad de las Artes<br><br>
 
                     </div>
-                    <div class="col-5">
+                    <div class="col">
                         <p class="lead">DAW:</p>
                         •	Ableton live 10<br>
                         •	Pro tools<br>
                         •	Reaper <br>
                         •	Musescore<br>
-                        •       Adobe Premiere 2020<br>
-                        •       Adobe photoshop 2020<br><br>
+                        •       Adobe premiere<br>
+                        •       Adobe photoshop<br><br>
                     </div>
                 </div>
 
                 <div class="row">
 
-                    <div class="col-2"></div>
-
-                    <div class="col-5">
+                    <div class="col">
 
                         <p class="lead">Habilidades: </p>
                         •	Buenas relaciones interpersonales<br>
@@ -206,7 +207,7 @@
                         •	Trabajo en equipo<br><br>
                     </div>
 
-                    <div class="col-5">
+                    <div class="col">
 
                         <p class="lead">Idiomas: </p>
                         •	Español<br>
@@ -267,10 +268,10 @@
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Redes Sociales</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/maite.villacreses"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/maitenoelia?s=08"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/maite-villacreses-ba47961b2"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/maite_nva/?igshid=5yvvjoa5743i"><i class="fab fa-fw fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/maite.villacreses" target="_blank"><i class="fab fa-fw fa-facebook-f" ></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/maitenoelia?s=08" target="_blank"><i class="fab fa-fw fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/maite-villacreses-ba47961b2" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/maite_nva/?igshid=5yvvjoa5743i" target="_blank"><i class="fab fa-fw fa-instagram"></i></a>
                     </div>
                     <!-- Footer About Text-->
                     <div class="col-lg-4">
@@ -303,7 +304,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">Log Cabin</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">Creación de Foley</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -313,7 +314,10 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-5">Descripción</p>
+                                    <a class="btn btn-primary" href="https://drive.google.com/file/d/135OQ-swzw-xk6oSYeqE084_yM-u54DpW/view" target="_blank" >
+                                        <i class="fab fa-google-drive"></i>
+                                        Visualizar</a><br><br>
                                     <button class="btn btn-primary" data-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
@@ -337,7 +341,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">Tasty Cake</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">Creación de sonidos (consola digital)</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -347,7 +351,10 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-5">Descripción</p>
+                                    <a class="btn btn-primary" href="https://drive.google.com/file/d/1bv4bGzzK9ULGHlcXBxZSxaNxbTHspbpF/view" target="_blank" >
+                                        <i class="fab fa-google-drive"></i>
+                                        Visualizar</a><br><br>
                                     <button class="btn btn-primary" data-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
@@ -371,7 +378,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal3Label">Circus Tent</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0 " id="portfolioModal3Label">Deflagraciones</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -381,7 +388,10 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-5">Descripción</p>
+                                    <a class="btn btn-primary" href="https://drive.google.com/file/d/1lyLxJo7hDHo_UW8_5HdZbM1v2lyFnk4F/view" target="_blank" >
+                                        <i class="fab fa-google-drive"></i>
+                                        Visualizar</a><br><br>
                                     <button class="btn btn-primary" data-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
@@ -405,7 +415,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal4Label">Controller</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal4Label">Bajo el agua</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -415,7 +425,10 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-5">Descripción</p>
+                                    <a class="btn btn-primary" href="https://drive.google.com/file/d/16IixJeSONhJjgy_Hc7m2u9_xfKUfaMgG/view" target="_blank" >
+                                        <i class="fab fa-google-drive"></i>
+                                        Visualizar</a><br><br>
                                     <button class="btn btn-primary" data-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
@@ -439,7 +452,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal5Label">Locked Safe</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal5Label">Como una roca</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -449,7 +462,10 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-5">Descripción</p>
+                                    <a class="btn btn-primary" href="https://drive.google.com/file/d/1J-1jEADavC73-iluv8X-A-4lup6L_n5R/view" target="_blank" >
+                                        <i class="fab fa-google-drive"></i>
+                                        Visualizar</a><br><br>
                                     <button class="btn btn-primary" data-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
@@ -473,7 +489,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal6Label">Submarine</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal6Label">Lobo huye del fuego ardiente</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -483,7 +499,10 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-5">Descripción</p>
+                                    <a class="btn btn-primary" href="https://drive.google.com/file/d/1nPqY50tun8UPWNwpTi-GpYos2XPpg7UO/view" target="_blank" >
+                                        <i class="fab fa-google-drive"></i>
+                                        Visualizar</a><br><br>
                                     <button class="btn btn-primary" data-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
@@ -500,9 +519,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Contact form JS-->
-        <script src="assets/mail/jqBootstrapValidation.js"></script>
-        <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
